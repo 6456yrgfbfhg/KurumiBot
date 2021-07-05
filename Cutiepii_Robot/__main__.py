@@ -200,22 +200,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Cutiepii to your group",
-                            url="t.me/{}?startgroup=true".format(
+                            text="➕️Add Nobara To Your Group➕️",
+                            url="t.me/NobarasanRobot?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [                         
                        InlineKeyboardButton(
-                             text="Chat With Cutie Lovers",
-                             url="https://t.me/Hindi_K_Drama_1")
+                             text="My Group",
+                             url="https://t.me/The_Phantom_Troupe")
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/t.me/supprt_sora"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/Techno_Ocean")
+                             url="https://t.me/nobara_kugisaki_updates")
                   
                      ]]))
     else:
